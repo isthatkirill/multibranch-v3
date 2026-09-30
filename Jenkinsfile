@@ -1,13 +1,12 @@
 pipeline {
     agent any
 
+    deployEnv 'krill_env'
+
     stages {
         stage('Hello') {
             steps {
-                echo 'THIRD'
-                sh 'ls -la'
-                sleep 6
-                echo "This is MAIN branch"
+                sleep 60
             }
         }
     }
