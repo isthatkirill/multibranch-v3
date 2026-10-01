@@ -1,5 +1,9 @@
 pipeline {
-    agent any
+    agent {          
+        pool {
+            name 'ALL-1-2-3'      
+        }
+    }
 
     deployEnv 'krill_env'
 
