@@ -1,7 +1,7 @@
 pipeline {
     agent {          
         pool {
-            name 'all-in-one'      
+            name 'ALL'      
         }
     }
 
