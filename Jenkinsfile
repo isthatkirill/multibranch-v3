@@ -3,6 +3,10 @@ pipeline {
 
     deployEnv 'krill_env'
 
+    options {
+        disableConcurrentBuilds()
+    }
+
     stages {
         stage('Hello') {
             steps {
