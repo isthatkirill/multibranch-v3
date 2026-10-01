@@ -1,11 +1,11 @@
 pipeline {
     agent {          
         pool {
-            name 'ALL-1-2-3'      
+            name 'all-in-one'      
         }
     }
 
-    deployEnv 'krill_env'
+    deployEnv '00-test'
 
     options {
         disableConcurrentBuilds()
