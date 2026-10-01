@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                sleep 60
+                sleep 70
             }
         }
     }
