@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'THIRD'
                 sh 'ls -la'
-                sleep 6
+                sleep 60
                 echo "This is MAIN branch"
             }
         }
